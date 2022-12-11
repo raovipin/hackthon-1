@@ -1,0 +1,680 @@
+ :root {
+   --navbarbackground: #333333;
+   --navbarcolor: #eeeeee;
+   --darker: #1F2937;
+   --darkest: #111827;
+   --light: #eee;
+   --pink: #ec4899;
+   --purple: #8b5cf6;
+   --grey: #6b7280;
+ }
+
+ html {
+   scroll-behavior: smooth;
+   /* overflow: hidden; */
+ }
+
+ /* navbar starts here  */
+ .container-fluid {
+   position: fixed;
+   top: 0px;
+   width: 100%;
+ }
+
+ .navbar-expand-lg .navbar-collapse {
+   background-color: var(--navbarbackground);
+   width: 100%;
+ }
+
+ .navbar-nav .nav-link {
+   color: var(--navbarcolor);
+   font-size: .8rem;
+ }
+
+ .navbar-nav .nav-link:hover {
+   color: var(--navbarcolor);
+   background-color: #444444;
+   /* box-shadow: 2.5px 2.5px 1px #a5a4a4; */
+   border: 1px solid #525151;
+   border: none;
+ }
+
+ .navbar-nav .nav-link.active {
+   color: var(--navbarcolor);
+ }
+
+ nav.navbar.navbar-expand-lg.bg-light {
+   padding: 0px;
+ }
+
+ .navbar>.container-fluid {
+   padding: 0px;
+ }
+
+ .navbar>.container-fluid {
+   background-color: var(--navbarbackground);
+ }
+
+ .navbar>.container,
+ .navbar>.container-fluid,
+ .navbar>.container-lg,
+ .navbar>.container-md,
+ .navbar>.container-sm,
+ .navbar>.container-xl,
+ .navbar>.container-xxl {
+   display: flex;
+   flex-direction: row;
+ }
+
+ a.nav-link {
+   padding: 0rem 1rem
+ }
+
+ .navbar-nav {
+   display: flex;
+   flex-direction: row;
+
+ }
+
+ .navbar-expand-lg .navbar-nav .nav-link {
+   padding: 0.3rem 1.5rem;
+ }
+
+ /* navbar ends here  */
+
+
+ /* home page starts here  */
+ #home {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  min-height: 100vh;
+   background: url(https://images.pexels.com/photos/210766/pexels-photo-210766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center/cover ;
+   color: #ffffff;
+   /* width: 100vh; */
+
+ }
+
+ .homeh1 {
+   font-size: 3.2rem;
+   padding: 2rem;
+   font-weight: 600;
+   text-align: center;
+ }
+ .homeh3{
+  margin: 0rem 2rem;
+  text-align: center;
+ }
+
+ .homep1 {
+   margin: 2rem 0rem;
+   margin-bottom: 0rem;
+   /* padding: 1.2rem 7.5rem; */
+   text-align: center;
+   width: 70%;
+ }
+
+ /* home page ends here  */
+
+
+ /* music page starts here  */
+ #music {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #252529;
+   color: #ffffff;
+   min-height: 1000px;
+   /* width: 100vh; */
+ }
+
+ p {
+   margin-bottom: 0px;
+   margin-bottom: 0px;
+ }
+
+ .musich1 {
+   margin-bottom: 2rem;
+   text-align: center;
+ }
+
+ .musich3 {
+  margin: 0rem 2rem;
+   margin-bottom: 1.5rem;
+   text-align: center;
+ }
+
+ .musicp {
+  
+   margin: 1rem 0rem;
+   margin-bottom: 0rem;
+   /* padding: 1.2rem 7.5rem; */
+   width: 70%;
+   text-align: center;
+ }
+
+ .btn {
+   border-radius: 1px;
+   background-color: #b90415;
+   color: #ffffff;
+   margin: 1.5rem;
+   font-weight: 500;
+   height: 3rem;
+ }
+
+ .btn:hover {
+   border-radius: 1px;
+   background-color: #d3071b;
+ }
+
+ .musicpend {
+   margin: 0.5rem .5rem;
+   font-size: .8rem;
+   text-align: center;
+ }
+
+ .musicimg {
+   width: 80%;
+ }
+
+ .bi-music-note-beamed {
+   font-size: 2.5rem !important;
+   font-weight: bold !important;
+   padding: 0rem .5rem;
+ }
+
+ .bi-music-note-beamed::before {
+   padding: 0rem .3rem;
+   font-weight: bold !important;
+
+ }
+
+ /* music page ends here  */
+
+ /* movie page starts here  */
+ #movie {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+
+ .movieh2 {
+  text-align: center;
+   font-size: 1.6rem;
+   margin: 0rem 3rem;
+   margin-top: 2rem;
+   text-align: center;
+ }
+
+ .moviep {
+  text-align: center;
+  padding: 1.2rem 2.5rem;
+  width: 75%;
+ }
+
+ .btnmovie {
+   font-weight: 600;
+   margin: 1rem;
+   padding: .5rem 1rem;
+   background-color: #103063;
+   color: white;
+   border: none;
+ }
+
+ .btnmovie:hover {
+   font-weight: 600;
+   margin: 1rem;
+   padding: .5rem 1rem;
+   color: white;
+   border: none;
+   background-color: #143f85;
+ }
+
+ .movieimg {
+   width: 80%;
+ }
+
+ /* movie page ends here  */
+
+ /* entertainment page starts here  */
+ #entertainment {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: 500px;
+   background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+   background-position: bottom center;
+   margin-top: 2.5rem;
+   width: 100%;
+ }
+
+ .h3entertainment {
+   color: white;
+   font-size: 1.6rem;
+   text-align: center;
+ }
+
+ .entertainmentpara {
+   margin-top: 1.8rem;
+   text-align: center;
+   color: white;
+   width: 72%;
+ }
+
+ /* entertainment page ends here  */
+
+
+
+ /* gift card starts here  */
+ #giftcards {
+   margin: 3rem 8rem;
+   display: grid;
+   justify-content: center;
+   text-align: center;
+   grid-template-columns: 2, 1fr;
+   grid-gap: 20px;
+   grid-template-areas:
+     'giftimg right';
+     /* width: 100%; */
+ }
+
+ #giftcards p {
+   font-size: .8rem;
+ }
+
+ .giftimg {
+   grid-area:giftimg;
+   width: 100%;
+ }
+
+ .right {
+   padding-top: .6rem;
+   grid-area: right;
+   text-align: left;
+ }
+
+ .gifth3 {
+   text-align: left;
+   margin-bottom: 1.5rem;
+   font-size: 1.4rem;
+ }
+
+ .giftbtn {
+   border: none;
+   background-color: none;
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ a.giftbtn {
+   margin-top: 1.5rem;
+ }
+
+ .giftbtn:hover {
+   color: black;
+   border: none;
+   background-color: none;
+   text-decoration: none;
+ }
+
+ .bi-arrow-right-square-fill {
+   padding-right: .5rem;
+
+ }
+
+ /* gift card ends here  */
+
+ /* footer starts here  */
+ footer {
+   background-color: #252529;
+ }
+
+ #links {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin: 0 12rem;
+   grid-gap: 20px;
+   grid-template-areas:
+     'one two three four'
+   ;
+   /* width: 100vh; */
+ }
+
+ .one {
+   grid-area: one;
+   display: flex;
+   flex-direction: column;
+   padding-left: 40px;
+
+ }
+
+ .two {
+   grid-area: two;
+   display: flex;
+   flex-direction: column;
+   padding-left: 40px;
+ }
+
+ .three {
+   grid-area: three;
+   display: flex;
+   flex-direction: column;
+   padding-left: 40px;
+ }
+
+ .four {
+   grid-area: four;
+   display: flex;
+   flex-direction: column;
+   padding-left: 40px;
+ }
+
+ .linksh2 {
+   font-size: .9rem;
+   color: white;
+   margin-top: 3rem;
+
+
+ }
+
+ .linka {
+   text-decoration: none;
+   color: #ccccc2;
+   font-size: .7rem;
+
+ }
+
+ .linka:hover {
+   text-decoration: none;
+   color: #ccccc2;
+   font-size: .7rem;
+
+ }
+
+ hr {
+   color: white;
+ }
+
+ .last {
+   color: white;
+   background-color: #333333;
+   min-height: 2rem;
+
+
+ }
+
+ .last>p {
+   margin: 3rem 0rem;
+   margin-bottom: 0rem;
+   text-align: center;
+   padding: 1rem;
+   font-size: .8rem;
+ }
+
+ /* footer ends here  */
+
+ /* media query for max width 800px  starts here   */
+ 
+ @media screen and (max-width: 800px)
+ {
+  /* media query for music starts here  */
+  .musicp{
+     width: 80%;
+   }
+   /* media query for music ends here  */
+
+
+   /* media query for movie starts here  */
+
+
+   .moviep{
+     width: 85%;
+    }
+
+
+    /* media query for movie ends here  */
+
+    /* media query for entertainment starts here  */
+
+
+    #entertainment{
+      min-height: 400px;
+    }
+    .entertainmentpara{
+      width: 85%;
+    }
+
+
+    /* media query for entertainment ends here  */
+
+
+    /* media query for gift card starts here  */
+
+
+    #giftcards {
+      margin: 3rem 8rem;
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      grid-template-columns: 2, 1fr;
+      grid-gap: 20px;
+      grid-template-areas:
+      'giftimg '
+      'right';
+      
+    }
+    .right{
+      text-align: center;
+    }
+    .gifth3 {
+      text-align: center;
+    }
+    #giftcards p{
+      text-align: justify;
+    }
+    #giftcards{
+      margin: 1rem 5rem;
+    }
+    .giftbtn{
+      display: block;
+     text-align: left;
+    }
+    a.giftbtn{
+      margin: -1rem;
+      margin-left: .1rem;
+    }
+    /* media query for gift card ends here  */
+
+
+
+    /* media query for footer starts here  */
+
+    #links{
+      display: none;
+    }
+
+    /* media query for footer ends here  */
+
+
+    /* media query for max ends 800px ends here  */
+ 
+
+
+
+    /* media query for max width 500px starts here  */
+    
+  @media screen and (max-width: 500px){
+
+    /* media query for nav bar starts here  */
+
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding: 0.3rem .6rem;
+      font-size: .5rem;
+    }
+
+
+    /* media query for nav bar ends here  */
+
+    /* media query for home page starts here  */
+    
+    
+    #home{
+     min-height: 40vh;
+    }
+    .homep1{
+      display: none;
+    }
+
+
+    /* media query for for home page ends here*/
+
+    /* media query for music starts here  */
+    
+    
+    #music{
+      min-height: 750px;
+    }
+    .musicp{
+      width: 85%;
+    }
+
+
+    /* media query for music ends here  */
+
+    /* media query for movie starts here  */
+    
+    .moviep{
+      width: 80%;
+    }
+
+
+    /* media query for movie ends here  */
+
+    /* media query for entertainment page starts here */
+
+    
+    #entertainment{
+      min-height: 400px;
+    }
+    .entertainmentpara{
+      width: 80%;
+    }
+    
+    /* media query for entertainment page ends  here */
+    
+
+    /* media query for gift card starts here  */
+    
+    #giftcards{
+      margin: 1rem 3rem;
+    }
+
+    /* media query for gift card ends  here  */
+  }
+
+  /* meida query for max width 500px ends here  */
+
+
+  /* media query for max width 300px starts here  */
+
+  @media screen and (max-width: 300px){
+
+    /* media query for navigation bar starts here  */
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding: 0.3rem .5rem;
+      font-size: .4rem;
+    }
+
+    /* media query for navigation bar ends here  */
+
+    /* media query for home page starts here  */
+
+    .homeh3{
+      font-size: 1.3rem;
+    }
+
+    /* media query for home page ends here  */
+
+    /* media query for music page starts here  */
+
+    #music{
+      min-height: 600px;
+    }
+
+    .musich1{
+      margin-top: 1rem;
+    }
+    .musicp{
+      font-size: .9rem;
+      margin: 0.1rem;
+    }
+    
+    /* media query for music page ends here  */
+
+    /* media query for movie starts here  */
+
+    .movieh2{
+      font-size: 1rem;
+      margin: 0rem .5rem;
+      margin-top:2rem ;
+    }
+    .moviep{
+      padding-left:1rem;
+      padding-right:1rem;
+      font-size: .8rem;
+    }
+
+    /* media query for movie ends here  */
+
+    /* media query for entertainment page starts here  */
+
+
+    #entertainment{
+      min-height: 400px;
+      margin-top: 1rem;
+    }
+    .entertainmentpara{
+      font-size: .8rem;
+      width: 70%;
+      padding: 0rem .3rem;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .h3entertainment{
+      font-size: 1.3rem;
+    }
+    
+    .h3entertainment{
+     margin-left:.3rem ;
+     margin-right:.4rem ;
+    }
+    .entertainmentpara{
+      width: 85%;
+    }
+    /* media query for entertainment page ends  here  */
+
+
+    /* media  query for footer starts here  */
+
+    .last p{
+      margin-top: 1.5rem;
+    }
+
+    /* media  query for footer ends here  */
+    
+
+  }
+  /* media query for max width 300px ends here  */
+ }
+
+ 
+
+ /* media query ends here  */
